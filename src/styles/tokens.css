@@ -1,0 +1,48 @@
+/* ═══════════════════════════════════════════════════════════════
+   MAISON SÉRAPHINE — Design tokens
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Palette — bone, ink, oxblood, clay */
+  --bone: #f1ece3;
+  --bone-deep: #e8e1d5;
+  --bone-soft: #f7f3ec;
+  --cream: #fbf8f2;
+  --ink: #14110f;
+  --ink-2: #1d1916;
+  --ink-3: #2b2621;
+  --oxblood: #5c191e;
+  --oxblood-deep: #471216;
+  --oxblood-bright: #7c2a30;
+  --clay: #a3907a;
+  --clay-light: #c3b39f;
+
+  /* Lines */
+  --line: rgba(20, 17, 15, 0.16);
+  --line-soft: rgba(20, 17, 15, 0.09);
+  --line-light: rgba(241, 236, 227, 0.2);
+  --line-light-soft: rgba(241, 236, 227, 0.1);
+
+  /* Type */
+  --font-display: "Bodoni Moda", "Didot", "Bodoni MT", "Times New Roman", serif;
+  --font-sans: "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-soft: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* Layout */
+  --pad: clamp(1.25rem, 4.8vw, 5rem);
+  --gutter: clamp(1rem, 1.8vw, 1.75rem);
+  --maxw: 100rem;
+  --nav-h: 5.4rem;
+  --section-y: clamp(4.5rem, 7.2vw, 8.5rem);
+  --radius: 0px;
+
+  /* Effects */
+  --shadow-soft: 0 30px 80px -30px rgba(20, 17, 15, 0.28);
+  --z-header: 100;
+  --z-menu: 95;
+  --z-cursor: 999;
+}

@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+
+# Build de producción
+dist/
+
+# Fuentes de imagen originales y artefactos de QA (no esenciales en repo)
+_picks/
+_commons/
+_commons.json
+_candidates/
+_candidates.json
+_shots/
+_*sheet*.jpg
+_imgtest/
+shots/
+shot/
+*.png.tmp
+
+# Scripts de auditoría temporales
+scripts/_*.mjs
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#14110f"/>
+  <rect x="5.5" y="5.5" width="53" height="53" fill="none" stroke="#f1ece3" stroke-opacity=".35"/>
+  <text x="32" y="45.5" text-anchor="middle" font-family="Bodoni MT, Didot, Georgia, serif" font-size="40" fill="#f1ece3">S</text>
+  <circle cx="32" cy="52.5" r="1" fill="#5c191e"/>
+</svg>
